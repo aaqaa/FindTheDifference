@@ -1,0 +1,23 @@
+# ninja log v5
+100	654	7703819052321991	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	dd5260f8fdd2580d
+9	3499	7703819081408963	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	30350d05f17037b6
+65	2432	7703819070178199	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	1df2538ea3a9e990
+654	1484	7703819058574503	D:/Unity/FindTheDiff/FindTheDiff/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4a6z4qs2/obj/armeabi-v7a/libswappywrapper.so	e1eaff32b28bb9ad
+20	2510	7703819071402183	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	1b2d4013eba70081
+76	2995	7703819076407716	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e3660f13ee2c2ec6
+51	3364	7703819080091086	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	c0f45fb75a09293c
+40	2334	7703819069737413	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	925f817669b122cb
+30	2959	7703819075947898	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	13eb09eb8bc0c46a
+89	2637	7703819072746813	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	6bf0a1c33fc35685
+3499	3674	7703819083208302	D:/Unity/FindTheDiff/FindTheDiff/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4a6z4qs2/obj/armeabi-v7a/libgame.so	99f05f2131df1434
+136	787	7703842296463336	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	dd5260f8fdd2580d
+787	1415	7703842302606735	D:/Unity/FindTheDiff/FindTheDiff/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4a6z4qs2/obj/armeabi-v7a/libswappywrapper.so	e1eaff32b28bb9ad
+44	2457	7703842313407086	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	1df2538ea3a9e990
+21	2598	7703842314876323	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	1b2d4013eba70081
+57	3022	7703842318853370	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	925f817669b122cb
+97	3042	7703842319041081	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	6bf0a1c33fc35685
+84	3097	7703842319871022	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e3660f13ee2c2ec6
+72	3100	7703842319951573	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	c0f45fb75a09293c
+9	3103	7703842319931406	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	13eb09eb8bc0c46a
+31	3691	7703842325962247	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	30350d05f17037b6
+3691	3863	7703842327737764	D:/Unity/FindTheDiff/FindTheDiff/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4a6z4qs2/obj/armeabi-v7a/libgame.so	99f05f2131df1434

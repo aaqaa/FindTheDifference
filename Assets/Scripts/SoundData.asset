@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9cda7779a1bfde4ebac7d606a412524, type: 3}
+  m_Name: SoundData
+  m_EditorClassIdentifier: 
+  buttonClick: {fileID: 8300000, guid: f61219f59b860124c852ba0eef88576b, type: 3}
+  diffClick: {fileID: 8300000, guid: e8dbcead259f75247a6eb1eae5ca2c45, type: 3}
+  levelCompleted: {fileID: 8300000, guid: 7cf730648f604cc4d88729cf18cf3138, type: 3}
+  gameOver: {fileID: 8300000, guid: 5cef51df24461da43b00326285b9fde8, type: 3}
+  wrongClick: {fileID: 8300000, guid: 217dcd6520dc8174c8358d0affa32439, type: 3}
+  soundOnSprite: {fileID: 21300000, guid: f70bb55691c9cf846b801d8bb635dfb6, type: 3}
+  soundOffSprite: {fileID: 21300000, guid: 5d66bb0f163f63f418d855d7132fd4b9, type: 3}
