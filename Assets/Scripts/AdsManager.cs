@@ -7,11 +7,12 @@ public class AdsManager : MonoBehaviour
     public bool disableAds;
 
 #if UNITY_ANDROID
-    private string appKey = "your_app_key_here"; // Replace with your IronSource App Key
+    private string appKey = "22324d145"; // Replace with your IronSource App Key
 #endif
 
     private void Awake()
     {
+        this.disableAds = true;
         if (Instance == null)
         {
             Instance = this;
@@ -68,17 +69,19 @@ public class AdsManager : MonoBehaviour
     #region Rewarded Video
 
     public void ShowRewardedVideo(Action onRewarded = null)
-    {   if(!disableAds){
-        if (IronSource.Agent.isRewardedVideoAvailable())
+    {
+        if (!disableAds)
         {
-            this.onUserRewarded = onRewarded;
-            IronSource.Agent.showRewardedVideo();
+            if (IronSource.Agent.isRewardedVideoAvailable())
+            {
+                this.onUserRewarded = onRewarded;
+                IronSource.Agent.showRewardedVideo();
+            }
+            else
+            {
+                Debug.Log("Rewarded Video not available.");
+            }
         }
-        else
-        {
-            Debug.Log("Rewarded Video not available.");
-        }
-    }
     }
 
     private Action onUserRewarded;
@@ -125,16 +128,19 @@ public class AdsManager : MonoBehaviour
     }
 
     public void ShowInterstitial()
-    {   if(!disableAds){
-        if (IronSource.Agent.isInterstitialReady())
+    {
+        if (!disableAds)
         {
-            IronSource.Agent.showInterstitial();
+            if (IronSource.Agent.isInterstitialReady())
+            {
+                IronSource.Agent.showInterstitial();
+            }
+            else
+            {
+                Debug.Log("Interstitial not ready");
+            }
+
         }
-        else
-        {
-            Debug.Log("Interstitial not ready");
-        }
-    }
     }
 
     void OnInterstitialReady(IronSourceAdInfo adInfo)
@@ -163,8 +169,9 @@ public class AdsManager : MonoBehaviour
     #region Banner
 
     public void LoadBanner()
-    {  if(!disableAds)
-        IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, IronSourceBannerPosition.BOTTOM);
+    {
+        if (!disableAds)
+            IronSource.Agent.loadBanner(IronSourceBannerSize.BANNER, IronSourceBannerPosition.BOTTOM);
     }
 
     public void DestroyBanner()
@@ -183,4 +190,5 @@ public class AdsManager : MonoBehaviour
     }
 
     #endregion
+
 }

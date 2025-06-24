@@ -11,7 +11,7 @@ public class HintManager : MonoBehaviour
     public Image imageTarget;
     private bool disableHintBtn;
     private List<DifferenceSpot> allDifferences;
-    public float fadeDuration = 1f;  // Duration of the fade
+    public float fadeDuration = 10f;  // Duration of the fade
 
     private Image overlayImage;
     void Start()

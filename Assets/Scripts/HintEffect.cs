@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HintEffect : MonoBehaviour
 {
-    public float duration = 2f;
+    public float duration = 6f;
     private float timer;
 
     private Vector3 originalScale;

@@ -116,8 +116,9 @@ public class LevlesMenu : MonoBehaviour
 
                 }
             else{
+                btn.GetComponentInChildren<TMP_Text>().text = "" + (levelIndex + 1);
                 btn.GetComponent<Image>().sprite = lockSprite;
-                btn.GetComponentInChildren<TMP_Text>().text = "";
+                // btn.GetComponentInChildren<TMP_Text>().text = "";
                }
             
 

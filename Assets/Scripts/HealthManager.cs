@@ -21,6 +21,7 @@ public class HealthManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
         {
@@ -76,21 +77,45 @@ public class HealthManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void updateHeart(){
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (hearth == null)
+        {
+            var hearthObj = GameObject.Find("Heart");
+            if (hearthObj != null)
+                hearth = hearthObj.GetComponent<Image>();
+        }
 
-     if(currentLives == 3){
-       hearthNew = Resources.Load<Sprite>("UIImages/cracked");
-       hearth.sprite = hearthNew;
+        // Locate Game Over panel
+        if (gameOverScreen == null)
+        {
+            gameOverScreen = GameObject.Find("GameOver");
+        }
 
-     }  
-     else if(currentLives ==2   ){
-       hearthNew = Resources.Load<Sprite>("UIImages/broken");
-       hearth.sprite = hearthNew;
-     } 
-     else if(currentLives ==1){
-       hearthNew = Resources.Load<Sprite>("UIImages/half");
-       hearth.sprite = hearthNew;
-     }
+        // Update its visual state to match currentLives
+        updateHeart();
+        if (gameOverScreen != null)
+            gameOverScreen.SetActive(false);
+    }
+    public void updateHeart()
+    {
+
+        if (currentLives == 3)
+        {
+            hearthNew = Resources.Load<Sprite>("UIImages/cracked");
+            hearth.sprite = hearthNew;
+
+        }
+        else if (currentLives == 2)
+        {
+            hearthNew = Resources.Load<Sprite>("UIImages/broken");
+            hearth.sprite = hearthNew;
+        }
+        else if (currentLives == 1)
+        {
+            hearthNew = Resources.Load<Sprite>("UIImages/half");
+            hearth.sprite = hearthNew;
+        }
     }
 
     public void resetHealth(){
