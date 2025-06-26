@@ -299,6 +299,8 @@ GameObject:
   - component: {fileID: 6020179989024561501}
   - component: {fileID: 6050153568013853863}
   - component: {fileID: -199500052330691998}
+  - component: {fileID: 8742081306171116649}
+  - component: {fileID: 2186096382598785899}
   m_Layer: 5
   m_Name: Level
   m_TagString: Untagged
@@ -424,3 +426,32 @@ MonoBehaviour:
   r: {x: 40, y: 40, z: 40, w: 40}
   rect2props: {x: -0.0000038146973, y: 0, z: -28.284273, w: -28.284273}
   image: {fileID: 6020179989024561501}
+--- !u!114 &8742081306171116649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108610062205315226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20339c4d1ab6822458c21d82d07da8d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainImage: {fileID: 6020179989024561501}
+  numberText: {fileID: 780500627913755473}
+  timerText: {fileID: 8146479224067557668}
+  button: {fileID: 6050153568013853863}
+  currentLevelIndex: -1
+--- !u!225 &2186096382598785899
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108610062205315226}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

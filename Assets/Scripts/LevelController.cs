@@ -70,7 +70,7 @@ public class LevelController : MonoBehaviour
     }
 
     public void setCurrentLevelParams(){
-            totalNumberOfDiff = currentLevelData.numberOfDiff;
+                totalNumberOfDiff = currentLevelData.numberOfDiff;
             numberOfDiffSpotted = 0;
             setDiffCoordinates();
     }
