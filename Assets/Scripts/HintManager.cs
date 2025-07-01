@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
+
 
 public class HintManager : MonoBehaviour
 {
@@ -16,7 +18,12 @@ public class HintManager : MonoBehaviour
     private Image overlayImage;
     void Start()
     {
-        allDifferences = new List<DifferenceSpot>(FindObjectsByType<DifferenceSpot>(FindObjectsSortMode.None));
+        // allDifferences = new List<DifferenceSpot>(FindObjectsByType<DifferenceSpot>(FindObjectsSortMode.None));
+        allDifferences = FindObjectsByType<DifferenceSpot>(
+                    FindObjectsInactive.Include,        // include inactive GOs
+                    FindObjectsSortMode.None)
+                  .Where(ds => ds.enabled && ds.gameObject.activeInHierarchy)
+                  .ToList();
     }
 
     public void ShowHint()

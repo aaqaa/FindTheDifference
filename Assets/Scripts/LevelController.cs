@@ -44,6 +44,7 @@ public class LevelController : MonoBehaviour
     }
     void Start()
     {
+        GameProgress.SaveLevel(31);
         //load current level.
         totalLevelCount = 2;
         // if(currentLevel ==0){ currentLevel = 1;}
@@ -76,7 +77,7 @@ public class LevelController : MonoBehaviour
     }
     private void setDiffCoordinates(){
         for(int i=0;i<5;i++){
-            if(i<totalNumberOfDiff){
+            if(i<totalNumberOfDiff){ 
                 
                 diffCircles[i].SetActive(true);
                 diffCircles[i].GetComponent<DifferenceSpot>().resetIsFound();

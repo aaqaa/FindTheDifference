@@ -44,11 +44,15 @@ public class StarController : MonoBehaviour
 
     public void mainRoutine(){  
          stars = new GameObject[gameObject.transform.childCount];
-        for(int i=0;i<stars.Length;i++){
-            stars[i]= gameObject.transform.GetChild(i).gameObject;
+        for (int i = 0; i < stars.Length; i++)
+        {
+
+            stars[i] = gameObject.transform.GetChild(i).gameObject;
             stars[i].GetComponent<Animator>().Rebind();
             stars[i].GetComponent<Animator>().Update(0f);
             stars[i].transform.GetChild(0).gameObject.SetActive(false);
+            stars[i].SetActive(false);
+
          }
          Debug.Log(stars.Length);
          StartCoroutine(initStars());

@@ -14,7 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Level34
   m_GUID: 2d56eb5d2dc54d34a853a39d4e7b8202
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 2a767377a129d7d45bc243031942c19a
+    m_Address: Image34A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dbfbe2685af9e049b47a03df2513c91
+    m_Address: Image34B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57a60e5621e260f40bddf2b1ba319e01
+    m_Address: Image34A_M
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 3008603286f37c14989d246327a98541, type: 2}
   m_SchemaSet:
