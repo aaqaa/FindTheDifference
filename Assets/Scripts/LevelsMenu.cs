@@ -52,8 +52,8 @@
             // Load resources once
             lockSprite = Resources.Load<Sprite>("UIImages/LevelLocked");
             unlockSprite = Resources.Load<Sprite>("UIImages/ButtonFrame");
-        // completedLevels = GameProgress.LoadLevel();
-            completedLevels = 35;
+        completedLevels = GameProgress.LoadLevel();
+            // completedLevels = 49;
             grid = content.GetComponent<GridLayoutGroup>();
 
             // Configure grid layout

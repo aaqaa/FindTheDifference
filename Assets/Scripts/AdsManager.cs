@@ -12,7 +12,7 @@ public class AdsManager : MonoBehaviour
 
     private void Awake()
     {
-        this.disableAds = true;
+        this.disableAds = false;
         if (Instance == null)
         {
             Instance = this;

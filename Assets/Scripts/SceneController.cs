@@ -14,7 +14,7 @@ public class SceneController : MonoBehaviour
         Debug.Log("Quit Game"); 
         SoundController.Instance.PlayButtonClickSound();
         Application.Quit();
-        GameProgress.ResetProgress();
+        // GameProgress.ResetProgress();
         GameProgress.ResetSoundOn();
     }
     public void LoadMainMenu(){
