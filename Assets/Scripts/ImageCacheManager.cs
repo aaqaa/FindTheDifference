@@ -23,18 +23,22 @@
             }
         }
 
-        // public void LoadImage(string spriteKey, SpriteRenderer targetRenderer)
-        // {
-        //     StartCoroutine(LoadSpriteCoroutine(spriteKey, targetRenderer));
-        // }
+    // public void LoadImage(string spriteKey, SpriteRenderer targetRenderer)
+    // {
+    //     StartCoroutine(LoadSpriteCoroutine(spriteKey, targetRenderer));
+    // }
+        public void LoadImage(string spriteKey, System.Action<Sprite> onSpriteLoaded)
+{
+    StartCoroutine(LoadSpriteCoroutine(spriteKey, onSpriteLoaded));
+}
             public void LoadImage(string spriteKey, SpriteRenderer targetRenderer)
+    {
+        StartCoroutine(LoadSpriteCoroutine(spriteKey, (Sprite sprite) =>
         {
-            StartCoroutine(LoadSpriteCoroutine(spriteKey, (Sprite sprite) =>
-            {
-                if (targetRenderer != null)
-                    targetRenderer.sprite = sprite;
-            }));
-        }
+            if (targetRenderer != null)
+                targetRenderer.sprite = sprite;
+        }));
+    }
     public void LoadImage(string spriteKey, Image targetImage)
         {
             StartCoroutine(LoadSpriteCoroutine(spriteKey, (Sprite sprite) =>
@@ -67,7 +71,8 @@
         yield return handle;
 
         if (handle.Status == AsyncOperationStatus.Succeeded)
-        {   noInternetScreen.SetActive(false);  
+        {
+            noInternetScreen.SetActive(false);
             Sprite sprite = handle.Result;
             onSpriteLoaded?.Invoke(sprite);
 
@@ -85,6 +90,7 @@
 
 
             File.WriteAllBytes(filePath, jpgData);
+            
         }
         else
         {

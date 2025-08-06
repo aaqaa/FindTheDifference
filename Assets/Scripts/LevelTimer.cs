@@ -10,6 +10,7 @@ public class LevelTimer : MonoBehaviour
     private float levelDuration;
     private bool isTiming;
     private bool isPaused;
+    static String winTimer = "";
 
     void Awake()
     {
@@ -57,10 +58,13 @@ public class LevelTimer : MonoBehaviour
         if (isTiming)
         {
             levelDuration = (isPaused ? pausedTime : Time.time) - startTime;
+            TimeSpan timeSpan = TimeSpan.FromSeconds(levelDuration);
+            winTimer =  string.Format("{0:00}:{1:00}", timeSpan.Minutes, timeSpan.Seconds);;
             isTiming = false;
             isPaused = false;
 
             Debug.Log("Level completed in: " + levelDuration + " seconds");
+
 
             if (PlayerPrefs.GetFloat("LevelTime_" + LevelController.currentLevel, 1) == 1)
             {
@@ -74,6 +78,12 @@ public class LevelTimer : MonoBehaviour
     {
         return levelDuration;
     }
+
+    public static String GetWinTimer()
+    {
+        return winTimer;
+    }
+
 
     public float GetCurrentElapsedTime()
     {

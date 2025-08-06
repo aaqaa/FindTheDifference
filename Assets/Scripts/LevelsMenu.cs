@@ -12,7 +12,7 @@
         public ScrollRect scrollRect;
         public int totalLevels = 1000;
         public int rowsVisible = 6;
-        public int minColumns = 2; // Minimum columns to display
+        // public int minColumns = 2; // Minimum columns to display
 
         private GridLayoutGroup grid;
         private List<LevelButton> pooledButtons = new List<LevelButton>();
@@ -52,15 +52,15 @@
             // Load resources once
             lockSprite = Resources.Load<Sprite>("UIImages/LevelLocked");
             unlockSprite = Resources.Load<Sprite>("UIImages/ButtonFrame");
-        completedLevels = GameProgress.LoadLevel();
-            // completedLevels = 49;
+            completedLevels = GameProgress.LoadLevel();
+            // completedLevels = 53;
             grid = content.GetComponent<GridLayoutGroup>();
 
             // Configure grid layout
-            grid.constraint = GridLayoutGroup.Constraint.Flexible;
-            grid.childAlignment = TextAnchor.UpperCenter;
-            grid.startCorner = GridLayoutGroup.Corner.UpperLeft;
-            grid.startAxis = GridLayoutGroup.Axis.Horizontal;
+            // grid.constraint = GridLayoutGroup.Constraint.Flexible;
+            // grid.childAlignment = TextAnchor.UpperCenter;
+            // grid.startCorner = GridLayoutGroup.Corner.UpperLeft;
+            // grid.startAxis = GridLayoutGroup.Axis.Horizontal;
 
             // Configure content anchors
             content.anchorMin = new Vector2(0.5f, 1f);
@@ -101,7 +101,7 @@
     content.sizeDelta = new Vector2(contentWidth, totalRows * buttonHeight);
 
     // Create pooled buttons
-    visibleButtonCount = columns * (rowsVisible + 2);
+    visibleButtonCount = columns * (rowsVisible + 4);
     for (int i = 0; i < visibleButtonCount; i++)
     {
         if (isDestroying) yield break;
@@ -152,8 +152,9 @@ void ScrollToLevelButton(int levelToScrollTo)
 
     int row = (levelToScrollTo - 1) / columns;
 
+    // Center the target row in the viewport
     float targetY = (row * buttonHeight) - (scrollRect.viewport.rect.height / 2f) + (buttonHeight / 2f);
-
+        targetY = targetY / columns;
     float contentHeight = content.rect.height;
     float viewportHeight = scrollRect.viewport.rect.height;
 
@@ -171,7 +172,7 @@ void ScrollToLevelButton(int levelToScrollTo)
 
         int GetFlexibleColumnCount()
         {
-            if (grid == null || isDestroying) return minColumns;
+            // if (grid == null || isDestroying) return minColumns;
 
             // Calculate using viewport width
             float availableWidth = scrollRect.viewport.rect.width 
@@ -181,7 +182,7 @@ void ScrollToLevelButton(int levelToScrollTo)
             float cellWidthWithSpacing = grid.cellSize.x + grid.spacing.x;
             int calculatedColumns = Mathf.FloorToInt(availableWidth / cellWidthWithSpacing);
 
-            return Mathf.Max(calculatedColumns, minColumns);
+            return calculatedColumns;
         }
 
         void UpdateVisibleButtons()
@@ -229,12 +230,18 @@ void ScrollToLevelButton(int levelToScrollTo)
             {
                 if (btn.image != null)
                 {
-                    if (!levelSpritesCache.TryGetValue(levelNumber, out var sprite))
+                    if (!levelSpritesCache.TryGetValue(levelNumber, out var sprite) || sprite == null)
                     {
                         string menuImageKey = $"Image{levelNumber}A_M";
                         btn.image.sprite = null;
-                        ImageCacheManager.Instance.LoadImage(menuImageKey, btn.image);
-                        levelSpritesCache[levelNumber] = btn.image.sprite;
+                       ImageCacheManager.Instance.LoadImage(menuImageKey, (loadedSprite) =>
+                        {
+                            if (loadedSprite != null)
+                            {
+                                btn.image.sprite = loadedSprite;
+                                levelSpritesCache[levelNumber] = loadedSprite;
+                            }
+                        });
                     }
                     else
                     {

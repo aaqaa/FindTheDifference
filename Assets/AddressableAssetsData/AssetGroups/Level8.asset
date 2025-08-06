@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Level8
   m_EditorClassIdentifier: 
   m_GroupName: Level8
-  m_GUID: 0654f95cf26471c46956a9a246455c09
+  m_GUID: 65cfebbf1cc7458429d83602d99d5fd5
   m_SerializeEntries:
-  - m_GUID: 12e9618221837314093f5bfde8eaf30c
-    m_Address: Image8A
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e59ed567bbef6074291faacd29746bbf
+  - m_GUID: 1185e305a1444eb4aab63818e9c274b6
     m_Address: Image8A_M
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: eb0d881a6bd82ef469ce3e94c074cdce
+  - m_GUID: d0f4d511dbe98fc46b4d0cb204a3c6df
+    m_Address: Image8A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef83b917c6063174a9d22a352327023f
     m_Address: Image8B
     m_ReadOnly: 0
     m_SerializedLabels: []
@@ -34,5 +34,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 3008603286f37c14989d246327a98541, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: fb075b8d7ecf9964aa807ac648d491c9, type: 2}
-    - {fileID: 11400000, guid: fb12c9008c33fdb44b23ea0a1ca3b81b, type: 2}
+    - {fileID: 11400000, guid: 88e6cdfc5a8e39042b91980fd894e4fb, type: 2}
+    - {fileID: 11400000, guid: 0232033638873ef4ca3f9176fb5f295e, type: 2}

@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: Level6
   m_EditorClassIdentifier: 
   m_GroupName: Level6
-  m_GUID: d0ada00ab1152fa48982eb72b75cd384
+  m_GUID: 54bfa939f7fb1754482950477de7ee69
   m_SerializeEntries:
-  - m_GUID: 536a7b4a189fbcc47929876aa22a60bb
-    m_Address: Image6A_M
+  - m_GUID: 731318ac7e4a7634fa1c3cec9a71e177
+    m_Address: Image6B
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9695f0d864a818840b86a30afdce0c03
+  - m_GUID: dcf80446d00d4214d905700d1e131c1e
     m_Address: Image6A
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ceec57358b682ab40a79752b68a7c75e
-    m_Address: Image6B
+  - m_GUID: ee9995ecddb211345a190b292b05430b
+    m_Address: Image6A_M
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -34,5 +34,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 3008603286f37c14989d246327a98541, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 4f09ebc78b69f644e86c65881a0e05af, type: 2}
-    - {fileID: 11400000, guid: 35bfb1f6d85534f4b89b721a9565d36c, type: 2}
+    - {fileID: 11400000, guid: 491702be125c1e742a7d738b3f3f5db4, type: 2}
+    - {fileID: 11400000, guid: 37a962a534d9a90418a50846fa0e094b, type: 2}

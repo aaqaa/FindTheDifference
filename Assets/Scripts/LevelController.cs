@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,7 @@ public class LevelController : MonoBehaviour
     public static int totalNumberOfDiff = 0;
     public static int numberOfDiffSpotted;
     public GameObject winCanvas;
+    public GameObject comingSoonCanvas;
     public GameObject gameOverCanvas;
     private LevelData currentLevelData;
 
@@ -24,6 +26,7 @@ public class LevelController : MonoBehaviour
     public static LevelController Instance;
     public GameObject parentDiffCircle;
     public GameObject timerCanvas;
+    public TMP_Text winCanvasTimertext;
     public static bool disableImageClick;
 
     void Awake()
@@ -57,8 +60,12 @@ public class LevelController : MonoBehaviour
             //show win screen
             isWin = true;
             disableImageClick = true;
-            GameProgress.SaveLevel(currentLevel + 1);
+            if (GameProgress.LoadLevel() < currentLevel)
+            { 
+                GameProgress.SaveLevel(currentLevel + 1);    
+            }
             SoundController.Instance.PlayLevelCompletedSound();
+            LevelTimer.Instance.StopTimer();
             StartCoroutine(showWinCanvas());
             LevelTimer.Instance.StopTimer();
         }
@@ -123,15 +130,18 @@ public class LevelController : MonoBehaviour
 
     IEnumerator showWinCanvas()
     {
-        int randomInt = Random.Range(1, 7);
-        if (randomInt == 1 || randomInt == 2 || randomInt == 5)
+        // int randomInt = Random.Range(1, 7);
+        // if (randomInt == 1 || randomInt == 2 || randomInt == 5)
+        
+        yield return new WaitForSeconds(1);
+        winCanvas.SetActive(true);
+        winCanvasTimertext.text = LevelTimer.GetWinTimer();
+        timerCanvas.SetActive(false);
+        disableDiffCircle(true);
+        if(currentLevel%7==0)
         { 
             AdsManager.Instance.ShowInterstitial();    
         }
-        yield return new WaitForSeconds(1);
-        winCanvas.SetActive(true);
-        timerCanvas.SetActive(false);
-        disableDiffCircle(true);
         isWin = true;
     }
     public void loadImages()
@@ -157,16 +167,34 @@ public class LevelController : MonoBehaviour
         Debug.Log(imageAKey);
         Debug.Log(imageBKey);
 
-        ImageCacheManager.Instance.LoadImage(imageAKey, image1);
-        ImageCacheManager.Instance.LoadImage(imageBKey, image2);
+        // ImageCacheManager.Instance.LoadImage(imageAKey, image1);
+        // ImageCacheManager.Instance.LoadImage(imageBKey, image2);
+
+        ImageCacheManager.Instance.LoadImage(imageAKey, (loadedSprite) =>
+                        {
+                            if (loadedSprite != null)
+                            {
+                                image1.sprite = loadedSprite;
+                            }
+                        });
+         ImageCacheManager.Instance.LoadImage(imageBKey, (loadedSprite) =>
+                        {
+                            if (loadedSprite != null)
+                            {
+                                image2.sprite = loadedSprite;
+                                LevelTimer.Instance.StartTimer();
+                            }
+                        });
 
     }
 
     public void loadNextLevel()
     {
+        Destroy(GameObject.FindGameObjectWithTag("HintCircle"));
+
         // AdsManager.Instance.LoadRewarded();
         HealthManager.Instance.resetCurrentLives();
-        LevelTimer.Instance.StartTimer();
+        // LevelTimer.Instance.StartTimer();
         timerCanvas.SetActive(true);
         AdsManager.Instance.LoadInterstitial();
         disableImageClick = false;
@@ -178,11 +206,20 @@ public class LevelController : MonoBehaviour
         numberOfDiffSpotted = 0;
         // loadImages();
         initLevelsData();
-        setCurrentLevelParams();
-        LoadImagesAddressable(currentLevel);
+        if (currentLevelData != null)
+        {
+            setCurrentLevelParams();
+            LoadImagesAddressable(currentLevel);
+            HealthManager.Instance.resetHealth();
+            resetStars();
+        }
+        else
+        {
+            comingSoonCanvas.SetActive(true);
+        }
+       
         // initLevelsData();
-        HealthManager.Instance.resetHealth();
-        resetStars();
+        
 
 
     }

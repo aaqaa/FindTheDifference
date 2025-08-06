@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DiffCircle
   - Image
+  - HintCircle
   layers:
   - Default
   - TransparentFX

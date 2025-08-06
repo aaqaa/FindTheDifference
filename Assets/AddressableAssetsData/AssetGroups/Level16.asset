@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Level16
   m_EditorClassIdentifier: 
   m_GroupName: Level16
-  m_GUID: 6d14c0b1f1f17fb4fb40055c513cce07
+  m_GUID: 6f04256689028d7499159bf7b28da24c
   m_SerializeEntries:
-  - m_GUID: 02e079aef36605b4a8c20c05ded63c45
-    m_Address: Image16B
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 13f061636915bcd4c91a4d0d054027d0
+  - m_GUID: 2bf7d5c632179524d832357f45ab9364
     m_Address: Image16A
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ac4d1e47bced4ed4d8f59f180a35fee7
+  - m_GUID: 3178d53f052ba534d8638152553b1e90
+    m_Address: Image16B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f77c6c5ba09af3a40a922035ecec7c3f
     m_Address: Image16A_M
     m_ReadOnly: 0
     m_SerializedLabels: []
@@ -34,5 +34,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 3008603286f37c14989d246327a98541, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: a4dbc17d80b10594bb95a8ca809fcf07, type: 2}
-    - {fileID: 11400000, guid: 233b03cce76ec6a4c88107944fa57057, type: 2}
+    - {fileID: 11400000, guid: 163d9dbc16a0acf40b53045c23a77585, type: 2}
+    - {fileID: 11400000, guid: fa799c515f6e55d4faa25e298f747c10, type: 2}

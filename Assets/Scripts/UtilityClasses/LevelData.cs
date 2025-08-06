@@ -88,8 +88,109 @@ public class LevelData
                 };
                 levelData.numberOfDiff = 4;
                 break;
-        case 4:
-                levelData.id = 4;   
+           case 4:
+                levelData.id = 4;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    
+                    new Vector3(-0.68f,2.52f,1),new Vector3(1.95f, 1.13f, 1),new Vector3(1.88f, 3.11f, 1),new Vector3(-1.96f, 2.35f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-0.68f,2.52f-4.1f,1),new Vector3(1.95f, 1.13f-4.1f, 1),new Vector3(1.88f, 3.11f-4.1f, 1),new Vector3(-1.96f, 2.35f-4.1f, 1)                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(-0.1f, -0.1f, 1),
+                    new Vector3(-0.1f, -0.1f, 1)
+                };
+                levelData.numberOfDiff = 4;
+                break;
+            case 5:
+                levelData.id = 5;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    
+                    new Vector3(-1.79f,1.85f,1),new Vector3(1.6f, 3.08f, 1),new Vector3(1.96f, 1.73f, 1),new Vector3(0.15f, 3.18f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.79f,1.85f-4.1f,1),new Vector3(1.6f, 3.08f-4.1f, 1),new Vector3(1.96f, 1.73f-4.1f, 1),new Vector3(0.15f, 3.18f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.09f, -0.09f, 1),
+                    new Vector3(-0.05f, -0.05f, 1)
+                };
+                levelData.numberOfDiff = 4;
+                break;
+         case 6:
+                levelData.id = 6;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    
+                    new Vector3(-1.61f,2.3f,1),new Vector3(-0.21f, 0.98f, 1),new Vector3(-0.6f, 3.82f, 1),new Vector3(1.77f, 1.26f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.61f,2.3f-4.1f,1),new Vector3(-0.21f, 0.98f-4.1f, 1),new Vector3(-0.6f, 3.82f-4.1f, 1),new Vector3(1.77f, 1.26f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(-0.09f, -0.09f, 1),
+                    new Vector3(-0.07f, -0.07f, 1)
+                };
+                levelData.numberOfDiff = 4;
+                break;
+         case 7:
+                levelData.id = 7;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    
+                    new Vector3(0.43f,1.97f,1),new Vector3(-1.63f, 3.83f, 1),new Vector3(-0.25f, 2.42f, 1),new Vector3(-1.17f, 1.5f, 1),new Vector3(1.24f, 3.91f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(0.43f,1.97f-4.1f,1),new Vector3(-1.63f, 3.83f-4.1f, 1),new Vector3(-0.25f, 2.42f-4.1f, 1),new Vector3(-1.17f, 1.5f-4.1f, 1),new Vector3(1.24f, 3.91f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.05f, -0.05f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+         case 8:
+                levelData.id = 8;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    
+                    new Vector3(-1.27f,1.76f,1),new Vector3(1.15f, 2.12f, 1),new Vector3(0.03f, 3.91f, 1),new Vector3(0.17f, 1.53f, 1),new Vector3(-1.43f, 3.17f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.27f,1.76f-4.1f,1),new Vector3(1.15f, 2.12f-4.1f, 1),new Vector3(0.03f, 3.91f-4.1f, 1),new Vector3(0.17f, 1.53f-4.1f, 1),new Vector3(-1.43f, 3.17f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.08f, -0.08f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+        case 61:
+                levelData.id = 61;   
                 levelData.diffPos1 = new List<Vector3>
                 {
                     new Vector3(0.11f, 2.26f, 1),
@@ -115,8 +216,8 @@ public class LevelData
                 levelData.numberOfDiff = 4;
                 break;
 
-            case 5:
-                levelData.id = 5;   
+            case 62:
+                levelData.id = 62;   
                 levelData.diffPos1 = new List<Vector3>
                 {
                     new Vector3(0.13f, 3.35f, 1),
@@ -145,8 +246,8 @@ public class LevelData
                 };
                 levelData.numberOfDiff = 5;
                 break;
-            case 6:
-                levelData.id = 6;   
+            case 63:
+                levelData.id = 63;   
                 levelData.diffPos1 = new List<Vector3>
                 {
                     new Vector3(0.16f, 3.63f, 1),
@@ -210,23 +311,23 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     new Vector3(-1.67f, 3.42f, 1),
-                    new Vector3(-0.68f, 2.91f, 1),
-                    new Vector3(1.02f, 3.88f, 1),
-                    new Vector3(1.85f, 2.47f, 1)
+                    new Vector3(-0.63f, 1.12f, 1),
+                    new Vector3(1.07f, 3.04f, 1),
+                    new Vector3(1.84f, 1.47f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-1.67f, -0.68f, 1),
-                    new Vector3(-0.68f, -1.19f, 1),
-                    new Vector3(1.02f, -0.16f, 1),
-                    new Vector3(1.85f, -1.59f, 1)
+                    new Vector3(-1.67f, 3.42f-4.1f, 1),
+                    new Vector3(-0.63f, 1.12f-4.1f, 1),
+                    new Vector3(1.07f, 3.04f-4.1f, 1),
+                    new Vector3(1.84f, 1.47f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.05f, -0.05f, 1.25f),
-                    new Vector3(-0.06f, -0.06f, 1),
                     new Vector3(-0.09f, -0.09f, 1),
-                    new Vector3(-0.07f, -0.07f, 1)
+                    new Vector3(-0.09f, -0.09f, 1),
+                    new Vector3(-0.09f, -0.09f, 1)
                 };
                 levelData.numberOfDiff = 4;
                 break;
@@ -236,7 +337,7 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(-0.46f,1.55f,1),new Vector3(-1.45f, 0.69f, 1),new Vector3(-0.77f, 3.29f, 1),new Vector3(1.45f, 1.3f, 1),new Vector3(0.45f, 3.22f, 1)
+                    new Vector3(-0.46f,1.55f,1),new Vector3(-1.45f, 0.69f, 1),new Vector3(-0.77f, 3.29f, 1),new Vector3(1.45f, 1.3f, 1),new Vector3(0.39f, 3.21f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
@@ -248,7 +349,7 @@ public class LevelData
                     new Vector3(-0.06f, -0.06f, 1),
                     new Vector3(-0.09f, -0.09f, 1),
                     new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.04f, -0.04f, 1)
+                    new Vector3(-0.06f, -0.06f, 1)
                 };
                 levelData.numberOfDiff = 5;
                 break;
@@ -257,19 +358,19 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(2.04f,4.23f,1),new Vector3(-1.76f, 3.71f, 1),new Vector3(0.94f, 4.28f, 1),new Vector3(-0.28f, 1.71f, 1),new Vector3(-0.09f, 0.7f, 1)
+                    new Vector3(1.79f,  4.23f,1),new Vector3(-1.84f, 3.75f, 1),new Vector3(0.94f, 4.28f, 1),new Vector3(-0.16f, 1.71f, 1),new Vector3(-0.09f, 0.7f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(2.04f,4.23f-4.1f,1),new Vector3(-1.76f, 3.71f-4.1f, 1),new Vector3(0.94f, 4.28f-4.1f, 1),new Vector3(-0.28f, 1.71f-4.1f, 1),new Vector3(-0.09f, 0.7f-4.1f, 1)
+                    new Vector3(1.79f,  4.23f-4.1f,1),new Vector3(-1.84f, 3.75f-4.1f, 1),new Vector3(0.94f, 4.28f-4.1f, 1),new Vector3(-0.16f, 1.71f-4.1f, 1),new Vector3(-0.09f, 0.7f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.05f, -0.05f, 1),
                     new Vector3(-0.07f, -0.07f, 1),
-                    new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.04f, -0.04f, 1)
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.07f, -0.07f, 1)
                 };
                 levelData.numberOfDiff = 5;
                 break;
@@ -278,32 +379,31 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(0.38f,3f,1),new Vector3(0.98f, 2.75f, 1),new Vector3(1.92f, 1.2f, 1),new Vector3(-1.1f, 1.51f, 1),new Vector3(-1.71f, 0.84f, 1)
+                    new Vector3(1.01f,3.8f,1),new Vector3(-0.71f, 2.6f, 1),new Vector3(0.57f, 1.93f, 1),new Vector3(-1f, 0.88f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(0.38f,3f-4.1f,1),new Vector3(0.98f, 2.75f-4.1f, 1),new Vector3(1.92f, 1.2f-4.1f, 1),new Vector3(-1.1f, 1.51f-4.1f, 1),new Vector3(-1.71f, 0.84f-4.1f, 1)
+                    new Vector3(1.01f,3.8f-4.1f,1),new Vector3(-0.71f, 2.6f-4.1f, 1),new Vector3(0.57f, 1.93f-4.1f, 1),new Vector3(-1f, 0.88f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
+                    new Vector3(-0.07f, -0.07f, 1),
                     new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.09f, -0.09f, 1),
                     new Vector3(-0.05f, -0.05f, 1)
                 };
-                levelData.numberOfDiff = 5;
+                levelData.numberOfDiff = 4;
                 break;
             case 32:
                 levelData.id = 32;
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(1.29f,3.66f,1),new Vector3(2.02f, 2.65f, 1),new Vector3(-0.39f, 4.39f, 1),new Vector3(0.38f, 0.86f, 1)
+                    new Vector3(1.29f,3.66f,1),new Vector3(2.02f, 2.65f, 1),new Vector3(-0.39f, 4.39f, 1),new Vector3(0.6f, 1.04f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(1.29f,3.66f-4.1f,1),new Vector3(2.02f, 2.65f-4.1f, 1),new Vector3(-0.39f, 4.39f-4.1f, 1),new Vector3(0.38f, 0.86f-4.1f, 1)
+                    new Vector3(1.29f,3.66f-4.1f,1),new Vector3(2.02f, 2.65f-4.1f, 1),new Vector3(-0.39f, 4.39f-4.1f, 1),new Vector3(0.6f, 1.04f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
@@ -323,7 +423,7 @@ public class LevelData
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(1.29f,3.66f-4.1f,1),new Vector3(2.02f, 2.65f-4.1f, 1),new Vector3(-0.39f, 4.39f-4.1f, 1)
+                    new Vector3(1.27f,2.14f-4.1f,1),new Vector3(-0.21f, 4f-4.1f, 1),new Vector3(1.74f, 4.09f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
@@ -338,16 +438,16 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(-0.34f,2.3f,1),new Vector3(0.73f, 4.35f, 1),new Vector3(1.5f, 3.29f, 1),new Vector3(-1.2f, 0.98f, 1),new Vector3(2f, 0.85f, 1)
+                    new Vector3(-0.34f,2.3f,1),new Vector3(0.75f, 4.01f, 1),new Vector3(1.5f, 3.29f, 1),new Vector3(-1.2f, 0.98f, 1),new Vector3(1.76f, 0.93f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-0.34f,2.3f-4.1f,1),new Vector3(0.73f, 4.35f-4.1f, 1),new Vector3(1.5f, 3.29f-4.1f, 1),new Vector3(-1.2f, 0.98f-4.1f, 1),new Vector3(2f, 0.85f-4.1f, 1)
+                    new Vector3(-0.34f,2.3f-4.1f,1),new Vector3(0.75f, 4.01f-4.1f, 1),new Vector3(1.5f, 3.29f-4.1f, 1),new Vector3(-1.2f, 0.98f-4.1f, 1),new Vector3(1.76f, 0.93f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.08f, -0.07f, 1),
+                    new Vector3(-0.09f, -0.09f, 1),
+                    new Vector3(-0.1f, -0.1f, 1),
                     new Vector3(-0.08f, -0.08f, 1),
                     new Vector3(0.1f, 0.1f, 1),
                     new Vector3(0.1f, 0.1f, 1)
@@ -380,11 +480,11 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(-1.81f,3.24f,1),new Vector3(2.04f, 4.25f, 1),new Vector3(2.15f, 0.92f, 1),new Vector3(-1.73f, 1.23f, 1),new Vector3(0.44f, 1.77f, 1)
+                    new Vector3(-1.81f,3.24f,1),new Vector3(2.04f, 4.25f, 1),new Vector3(2.09f, 1.14f, 1),new Vector3(-1.73f, 1.23f, 1),new Vector3(0.44f, 1.77f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-1.81f,3.24f-4.1f,1),new Vector3(2.04f, 4.25f-4.1f, 1),new Vector3(2.15f, 0.92f-4.1f, 1),new Vector3(-1.73f, 1.23f-4.1f, 1),new Vector3(0.44f, 1.77f-4.1f, 1)
+                    new Vector3(-1.81f,3.24f-4.1f,1),new Vector3(2.04f, 4.25f-4.1f, 1),new Vector3(2.09f, 1.14f-4.1f, 1),new Vector3(-1.73f, 1.23f-4.1f, 1),new Vector3(0.44f, 1.77f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
@@ -444,11 +544,11 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(1.65f,2.87f,1),new Vector3(-0.04f, 2.5f, 1),new Vector3(-1.04f, 1.77f, 1),new Vector3(1.45f, 1.52f, 1)
+                    new Vector3(1.65f,2.87f,1),new Vector3(-0.04f, 2.5f, 1),new Vector3(-1.04f, 1.77f, 1),new Vector3(1.39f, 1.35f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(1.65f,2.87f-4.1f,1),new Vector3(-0.04f, 2.5f-4.1f, 1),new Vector3(-1.04f, 1.77f-4.1f, 1),new Vector3(1.45f, 1.52f-4.1f, 1)
+                    new Vector3(1.65f,2.87f-4.1f,1),new Vector3(-0.04f, 2.5f-4.1f, 1),new Vector3(-1.04f, 1.77f-4.1f, 1),new Vector3(1.39f, 1.35f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
@@ -485,11 +585,11 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(0.07f,3.89f,1),new Vector3(-1.34f, 3.57f, 1),new Vector3(1.49f, 2.42f, 1),new Vector3(-1.47f, 0.83f, 1),new Vector3(0.69f, 0.78f, 1)
+                    new Vector3(0.07f,3.89f,1),new Vector3(-1.61f, 3.69f, 1),new Vector3(1.49f, 2.42f, 1),new Vector3(-1.47f, 0.83f, 1),new Vector3(0.69f, 0.78f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(0.07f,3.89f-4.1f,1),new Vector3(-1.34f, 3.57f-4.1f, 1),new Vector3(1.49f, 2.42f-4.1f, 1),new Vector3(-1.47f, 0.83f-4.1f, 1),new Vector3(0.69f, 0.78f-4.1f, 1)
+                    new Vector3(0.07f,3.89f-4.1f,1),new Vector3(-1.61f, 3.69f-4.1f, 1),new Vector3(1.49f, 2.42f-4.1f, 1),new Vector3(-1.47f, 0.83f-4.1f, 1),new Vector3(0.69f, 0.78f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
@@ -527,15 +627,15 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(0.89f,3.3f,1),new Vector3(-1.04f, 2.72f, 1),new Vector3(-1.17f, 1.86f, 1),new Vector3(1.88f, 0.83f, 1),new Vector3(1.42f, 2.3f, 1)
+                    new Vector3(0.94f,3.87f,1),new Vector3(-1.04f, 2.72f, 1),new Vector3(-1.11f, 1.72f, 1),new Vector3(1.88f, 0.83f, 1),new Vector3(1.42f, 2.3f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(0.89f,3.3f-4.1f,1),new Vector3(-1.04f, 2.72f-4.1f, 1),new Vector3(-1.17f, 1.86f-4.1f, 1),new Vector3(1.88f, 0.83f-4.1f, 1),new Vector3(1.42f, 2.3f-4.1f, 1)
+                    new Vector3(0.94f,3.87f-4.1f,1),new Vector3(-1.04f, 2.72f-4.1f, 1),new Vector3(-1.11f, 1.72f-4.1f, 1),new Vector3(1.88f, 0.83f-4.1f, 1),new Vector3(1.42f, 2.3f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.09f, -0.09f, 1),
                     new Vector3(-0.06f, -0.06f, 1),
                     new Vector3(-0.07f, -0.07f, 1),
                     new Vector3(0.07f, 0.07f, 1),
@@ -548,15 +648,15 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(-0.97f,3.91f,1),new Vector3(-0.68f, 2.78f, 1),new Vector3(0.68f, 4.25f, 1),new Vector3(1.16f, 1.27f, 1),new Vector3(1.81f, 3.24f, 1)
+                    new Vector3(-1.24f,3.76f,1),new Vector3(-0.68f, 2.78f, 1),new Vector3(0.68f, 4.25f, 1),new Vector3(1.16f, 1.27f, 1),new Vector3(1.81f, 3.24f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-0.97f,3.91f-4.1f,1),new Vector3(-0.68f, 2.78f-4.1f, 1),new Vector3(0.68f, 4.25f-4.1f, 1),new Vector3(1.16f, 1.27f-4.1f, 1),new Vector3(1.81f, 3.24f-4.1f, 1)
+                    new Vector3(-1.24f,3.76f-4.1f,1),new Vector3(-0.68f, 2.78f-4.1f, 1),new Vector3(0.68f, 4.25f-4.1f, 1),new Vector3(1.16f, 1.27f-4.1f, 1),new Vector3(1.81f, 3.24f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.08f, -0.08f, 1),
                     new Vector3(-0.05f, -0.05f, 1),
                     new Vector3(-0.07f, -0.07f, 1),
                     new Vector3(0.06f, 0.06f, 1),
@@ -569,19 +669,19 @@ public class LevelData
                 levelData.diffPos1 = new List<Vector3>
                 {
                     
-                    new Vector3(-1.69f,4.24f,1),new Vector3(1.1f, 3.61f, 1),new Vector3(-0.47f, 3.54f, 1),new Vector3(-1.84f, 2.47f, 1),new Vector3(0.38f, 1.31f, 1)
+                    new Vector3(0.39f,4.24f,1),new Vector3(1.1f, 3.61f, 1),new Vector3(-1.18f, 3.12f, 1),new Vector3(-0.55f,1.31f, 1),new Vector3(1.87f, 1.98f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-0.97f,3.91f-4.1f,1),new Vector3(-0.68f, 2.78f-4.1f, 1),new Vector3(0.68f, 4.25f-4.1f, 1),new Vector3(1.16f, 1.27f-4.1f, 1),new Vector3(1.81f, 3.24f-4.1f, 1)
+                    new Vector3(0.39f,4.24f-4.1f,1),new Vector3(1.1f, 3.61f-4.1f, 1),new Vector3(-1.18f, 3.12f-4.1f, 1),new Vector3(-0.55f,1.31f-4.1f, 1),new Vector3(1.87f, 1.98f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.03f, -0.03f, 1),
                     new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.04f, -0.04f, 1),
-                    new Vector3(0.04f, 0.04f, 1),
-                    new Vector3(0.04f, 0.04f, 1)
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(0.1f, 0.1f, 1),
+                    new Vector3(0.06f, 0.06f, 1)
                 };
                 levelData.numberOfDiff = 5;
                 break;
@@ -589,19 +689,19 @@ public class LevelData
                 levelData.id = 46;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-0.47f, 3.42f, 1),new Vector3(-0.91f, 3.37f, 1),new Vector3(1.52f, 2.41f, 1),new Vector3(0.7f, 2.53f, 1),new Vector3(-0.94f, 2.35f, 1)
+                    new Vector3(1.56f, 4.24f, 1),new Vector3(-0.92f, 3.37f, 1),new Vector3(-1.33f, 1.22f, 1),new Vector3(0.85f, 2.11f, 1),new Vector3(0.15f, 3.13f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-0.47f, 3.42f-4.1f, 1),new Vector3(-0.91f, 3.37f-4.1f, 1),new Vector3(1.52f, 2.41f-4.1f, 1),new Vector3(0.7f, 2.53f-4.1f, 1),new Vector3(-0.94f, 2.35f-4.1f, 1)
+                    new Vector3(1.56f, 4.24f-4.1f, 1),new Vector3(-0.92f, 3.37f-4.1f, 1),new Vector3(-1.33f, 1.22f-4.1f, 1),new Vector3(0.85f, 2.11f-4.1f, 1),new Vector3(0.15f, 3.13f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.03f, -0.03f, 1f),
-                    new Vector3(-0.03f, -0.03f, 1),
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
                     new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.08f, -0.08f, 1)
+                    new Vector3(-0.04f, -0.04f, 1)
                 };
                 levelData.numberOfDiff = 5;
                 break;
@@ -609,27 +709,24 @@ public class LevelData
                 levelData.id = 47;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(2f, 1.22f, 1),new Vector3(-0.18f, 4.25f, 1),new Vector3(-2.06f, 2.49f, 1),new Vector3(-0.4f, 2.04f, 1),new Vector3(-1.52f, 0.87f, 1)
+                    new Vector3(1.92f, 2.06f, 1),new Vector3(-0.18f, 4.25f, 1),new Vector3(-1.046f, 1.75f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-0.47f, 3.42f-4.1f, 1),new Vector3(-0.91f, 3.37f-4.1f, 1),new Vector3(1.52f, 2.41f-4.1f, 1),new Vector3(0.7f, 2.53f-4.1f, 1),new Vector3(-0.94f, 2.35f-4.1f, 1)
-                };
+                    new Vector3(1.92f, 2.06f-4.1f, 1),new Vector3(-0.18f, 4.25f-4.1f, 1),new Vector3(-1.046f, 1.75f-4.1f, 1)                };
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.07f, -0.07f, 1f),
-                    new Vector3(-0.05f, -0.05f, 1),
                     new Vector3(-0.06f, -0.06f, 1),
-                    new Vector3(-0.04f, -0.04f, 1),
-                    new Vector3(-0.06f, -0.06f, 1)
+                    new Vector3(-0.07f, -0.07f, 1)
                 };
-                levelData.numberOfDiff = 5;
+                levelData.numberOfDiff = 3;
                 break;
              case 48:
                 levelData.id = 48;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(1.45f, 0.85f, 1),new Vector3(-0.53f, 4.25f, 1),new Vector3(-0.95f, 2.37f, 1),new Vector3(1.36f, 2.28f, 1),new Vector3(0.13f, 1.05f, 1)
+                    new Vector3(1.45f, 0.85f, 1),new Vector3(-0.53f, 4.25f, 1),new Vector3(-0.95f, 2.37f, 1),new Vector3(1.43f, 2.39f, 1),new Vector3(0.13f, 1.05f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
@@ -640,8 +737,8 @@ public class LevelData
                     new Vector3(-0.07f, -0.07f, 1f),
                     new Vector3(-0.05f, -0.05f, 1),
                     new Vector3(-0.04f, -0.04f, 1),
-                    new Vector3(-0.04f, -0.04f, 1),
-                    new Vector3(-0.04f, -0.04f, 1)
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
                 };
                 levelData.numberOfDiff = 5;
                 break;
@@ -665,9 +762,9 @@ public class LevelData
                 };
                 levelData.numberOfDiff = 5;
                 break;
-            case 7:
+            case 64:
             //easy level
-                levelData.id = 7;
+                levelData.id = 64;
                 levelData.diffPos1 = new List<Vector3>
                 {
                     new Vector3(-1.44f, 2.9f, 1),new Vector3(-0.73f, 3.58f, 1),new Vector3(0.46f, 2.84f, 1)
@@ -684,9 +781,9 @@ public class LevelData
                 };
                 levelData.numberOfDiff = 3;
                 break;
-               case 8:
+               case 65:
                 //difficult
-                levelData.id = 8;
+                levelData.id = 65;
                 levelData.diffPos1 = new List<Vector3>
                 {
                     new Vector3(0.09f, 1.95f, 1),new Vector3(-0.28f, 4.34f, 1),new Vector3(1.4f, 2.84f, 1),new Vector3(0.11f, 0.73f, 1),new Vector3(-0.79f, 3.29f, 1)
@@ -730,19 +827,20 @@ public class LevelData
                 levelData.id = 10;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-1.46f, 1.99f, 1),new Vector3(1.87f, 4.13f, 1),new Vector3(-1.91f, 2.96f, 1),new Vector3(-1.31f, 3.91f, 1)
+                    new Vector3(-1.46f, 1.99f, 1),new Vector3(1.87f, 4.13f, 1),new Vector3(-1.91f, 2.96f, 1),new Vector3(-1.31f, 3.91f, 1),new Vector3(0.59f, 1.48f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-1.46f, 1.99f-4.1f, 1),new Vector3(1.87f, 4.13f-4.1f, 1),new Vector3(-1.91f, 2.96f-4.1f, 1),new Vector3(-1.31f, 3.91f-4.1f, 1)                };
+                    new Vector3(-1.46f, 1.99f-4.1f, 1),new Vector3(1.87f, 4.13f-4.1f, 1),new Vector3(-1.91f, 2.96f-4.1f, 1),new Vector3(-1.31f, 3.91f-4.1f, 1),new Vector3(0.59f, 1.48f-4.1f, 1)                };
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.03f, -0.03f, 1f),
                     new Vector3(-0.09f, -0.09f, 1),
                     new Vector3(-0.06f, -0.06f, 1),
-                    new Vector3(-0.06f, -0.06f, 1)
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.08f, -0.08f, 1)
                 };
-                levelData.numberOfDiff = 4;
+                levelData.numberOfDiff = 5;
                 break;
             case 11:
                 //easy
@@ -823,12 +921,33 @@ public class LevelData
                 };
                 levelData.numberOfDiff = 4;
                 break;
-            case 15:
-                //medium
-                levelData.id = 15;
+            case 67:
+                //easy
+                levelData.id = 67;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-1.66f, 3.72f, 1),new Vector3(1.72f, 1.35f, 1),new Vector3(-0.4f, 1.56f, 1),new Vector3(0.75f, 2.63f, 1)
+                    new Vector3(-1.12f, 3.48f, 1),new Vector3(1.46f, 3.85f, 1),new Vector3(0.1f, 2.25f, 1),new Vector3(0.39f, 1.25f, 1),new Vector3(1.41f, 1.92f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.12f, 3.48f-4.1f, 1),new Vector3(1.46f, 3.85f-4.1f, 1),new Vector3(0.1f, 2.25f-4.1f, 1),new Vector3(0.39f, 1.25f-4.1f, 1),new Vector3(1.41f, 1.92f-4.1f, 1)
+                                     };
+                levelData.diffScale = new List<Vector3> 
+                {
+                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 66:
+                //medium
+                levelData.id = 66;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-1.66f, 3.72f, 1),new Vector3(1.78f, 1.35f, 1),new Vector3(-0.3f, 1.46f, 1),new Vector3(0.75f, 2.63f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
@@ -837,51 +956,70 @@ public class LevelData
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.04f, -0.04f, 1f),
-                    new Vector3(-0.04f, -0.04f, 1),
-                    new Vector3(-0.02f, -0.02f, 1),
-                    new Vector3(-0.06f, -0.06f, 1)
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.08f, -0.08f, 1)
                 };
                 levelData.numberOfDiff = 4;
+                break;
+            case 15:
+                //medium
+                levelData.id = 15;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-0.01f,2.91f, 1),new Vector3(-1.4f, 3.79f, 1),new Vector3(1.93f, 4.02f, 1),new Vector3(0.75f, 1.17f, 1),new Vector3(-0.91f, 2.43f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-0.01f,2.91f-4.1f, 1),new Vector3(-1.4f, 3.79f-4.1f, 1),new Vector3(1.93f, 4.02f-4.1f, 1),new Vector3(0.75f, 1.17f-4.1f, 1),new Vector3(-0.91f, 2.43f-4.1f, 1)
+                                     };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.09f, -0.09f, 1),
+                    new Vector3(-0.1f, -0.1f, 1)
+                };
+                levelData.numberOfDiff = 5;
                 break;
             case 16:
                 //hard
                 levelData.id = 16;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-1.1f, 3.5f, 1),new Vector3(0.09f, 2.25f, 1),new Vector3(1.51f, 3.87f, 1),new Vector3(1.43f, 1.92f, 1),new Vector3(0.38f, 1.03f, 1)
+                    new Vector3(2.02f, 3.5f, 1),new Vector3(0.32f, 3.7f, 1),new Vector3(-0.74f, 4.17f, 1),new Vector3(-0.95f, 1.49f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-1.1f, 3.5f-4.1f, 1),new Vector3(0.09f, 2.25f-4.1f, 1),new Vector3(1.51f, 3.87f-4.1f, 1),new Vector3(1.43f, 1.92f-4.1f, 1),new Vector3(0.38f, 1.03f-4.1f, 1)
-
+                    new Vector3(2.02f, 3.5f-4.1f, 1),new Vector3(0.32f, 3.7f-4.1f, 1),new Vector3(-0.74f, 4.17f-4.1f, 1),new Vector3(-0.95f, 1.49f-4.1f, 1)
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.03f, -0.03f, 1f),
-                    new Vector3(-0.04f, -0.04f, 1),
-                    new Vector3(-0.02f, -0.02f, 1),
-                    new Vector3(-0.03f, -0.03f, 1),
-                    new Vector3(-0.03f, -0.03f, 1)
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
                 };
-                levelData.numberOfDiff = 5;
+                levelData.numberOfDiff = 4;
                 break;
             case 17:
                 //hard
                 levelData.id = 17;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(1.43f, 3.5f, 1),new Vector3(0.21f, 2.88f, 1),new Vector3(-1.99f, 3.23f, 1),new Vector3(0.17f, 0.86f, 1)
+                    new Vector3(-1.9f, 2.93f, 1),new Vector3(0.35f, 0.97f, 1),new Vector3(0.01f, 2.49f, 1),new Vector3(0.94f, 2.99f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(1.43f, 3.5f-4.1f, 1),new Vector3(0.21f, 2.88f-4.1f, 1),new Vector3(-1.99f, 3.23f-4.1f, 1),new Vector3(0.17f, 0.86f-4.1f, 1)
+                    new Vector3(-1.9f, 2.93f-4.1f, 1),new Vector3(0.35f, 0.97f-4.1f, 1),new Vector3(0.01f, 2.49f-4.1f, 1),new Vector3(0.94f, 2.99f-4.1f, 1)
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.03f, -0.03f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1f),
                     new Vector3(-0.04f, -0.04f, 1),
-                    new Vector3(-0.02f, -0.02f, 1),
-                    new Vector3(-0.03f, -0.03f, 1)
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
                 };
                 levelData.numberOfDiff = 4;
                 break;
@@ -890,7 +1028,7 @@ public class LevelData
                 levelData.id = 18;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(1.24f, 3.39f, 1),new Vector3(-1.34f, 3.43f, 1),new Vector3(-1.52f, 2.45f, 1),new Vector3(1.56f, 1.81f, 1)
+                    new Vector3(1.24f, 3.39f, 1),new Vector3(-1.25f, 3.49f, 1),new Vector3(-1.52f, 2.45f, 1),new Vector3(1.56f, 1.81f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
@@ -898,52 +1036,111 @@ public class LevelData
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.05f, -0.05f, 1f),
-                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1),
                     new Vector3(-0.03f, -0.03f, 1),
                     new Vector3(-0.05f, -0.05f, 1)
                 };
                 levelData.numberOfDiff = 4;
                 break;
-             case 19:
-                //hard
+            case 19:
                 levelData.id = 19;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-0.37f, 3.72f, 1),new Vector3(0.92f, 2.8f, 1),new Vector3(-1.99f, 2.26f, 1),new Vector3(1.82f, 3.94f, 1)
+                    
+                    new Vector3(-1.55f,2.29f,1),new Vector3(-0.84f, 4.12f, 1),new Vector3(0.6f, 3.91f, 1),new Vector3(1.33f, 2.65f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-0.37f, 3.72f-4.1f, 1),new Vector3(0.92f, 2.8f-4.1f, 1),new Vector3(-1.99f, 2.26f-4.1f, 1),new Vector3(1.82f, 3.94f-4.1f, 1)
+                    new Vector3(-1.55f,2.29f-4.1f,1),new Vector3(-0.84f, 4.12f-4.1f, 1),new Vector3(0.6f, 3.91f-4.1f, 1),new Vector3(1.33f, 2.65f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1)
+                };
+                levelData.numberOfDiff = 4;
+                break;
+             case 68:
+                //hard
+                levelData.id = 68;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-0.37f, 3.72f, 1),new Vector3(0.92f, 2.8f, 1),new Vector3(-1.99f, 2.26f, 1),new Vector3(1.65f, 4.02f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-0.37f, 3.72f-4.1f, 1),new Vector3(0.92f, 2.8f-4.1f, 1),new Vector3(-1.99f, 2.26f-4.1f, 1),new Vector3(1.65f, 4.02f-4.1f, 1)
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.05f, -0.05f, 1f),
                     new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.03f, -0.03f, 1),
-                    new Vector3(-0.01f, -0.05f, 1)
+                    new Vector3(-0.03f, -0.03f, 1), 
+                    new Vector3(-0.08f, -0.08f, 1)
                 };
                 levelData.numberOfDiff = 4;
+                break;
+            case 69:
+                //hard
+                levelData.id = 69;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(1.43f, 3.5f, 1),new Vector3(0.21f, 2.88f, 1),new Vector3(-1.99f, 3.23f, 1),new Vector3(0.17f, 0.86f, 1), new Vector3(1.29f, 2.03f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(1.43f, 3.5f-4.1f, 1),new Vector3(0.21f, 2.88f-4.1f, 1),new Vector3(-1.99f, 3.23f-4.1f, 1),new Vector3(0.17f, 0.86f-4.1f, 1), new Vector3(1.29f, 2.03f-4.1f, 1)
+                                     };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.04f, -0.04f, 1f),
+                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+              case 70:
+                //hard
+                levelData.id = 70;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-0.16f, 3.5f, 1),new Vector3(0.84f, 1.22f, 1),new Vector3(1.82f, 3.23f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-0.16f, 3.5f-4.1f, 1),new Vector3(0.84f, 1.22f-4.1f, 1),new Vector3(1.82f, 3.23f-4.1f, 1)                                     };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.09f, -0.09f, 1)
+                };
+                levelData.numberOfDiff = 3;
                 break;
             case 20:
                 //hard
                 levelData.id = 20;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-1.06f, 3.72f, 1),new Vector3(0.16f, 2.35f, 1),new Vector3(-1.12f, 1.26f, 1),new Vector3(1.35f, 2.32f, 1),new Vector3(1.62f, 3.12f, 1)
+                    new Vector3(-1.3f, 3.72f, 1),new Vector3(0.16f, 2.35f, 1),new Vector3(-1.3f, 1.35f, 1),new Vector3(1.59f, 2.32f, 1),new Vector3(1.56f, 3.26f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-1.06f, 3.72f-4.1f, 1),new Vector3(0.16f, 2.35f-4.1f, 1),new Vector3(-1.12f, 1.26f-4.1f, 1),new Vector3(1.35f, 2.32f-4.1f, 1),new Vector3(1.62f, 3.12f-4.1f, 1)
+                    new Vector3(-1.3f, 3.72f-4.1f, 1),new Vector3(0.16f, 2.35f-4.1f, 1),new Vector3(-1.3f, 1.35f-4.1f, 1),new Vector3(1.59f, 2.32f-4.1f, 1),new Vector3(1.56f, 3.26f-4.1f, 1)
 
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.08f, -0.08f, 1f),
                     new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.03f, -0.03f, 1),
-                    new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(-0.03f, -0.03f, 1)
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
                 };
                 levelData.numberOfDiff = 5;
                 break;
@@ -956,7 +1153,7 @@ public class LevelData
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-0.37f, 3.72f-4.1f, 1),new Vector3(0.92f, 2.8f-4.1f, 1),new Vector3(-1.99f, 2.26f-4.1f, 1),new Vector3(1.82f, 3.94f-4.1f, 1)
+                    new Vector3(0.58f, 4.15f-4.1f, 1),new Vector3(1.12f, 2.79f-4.1f, 1),new Vector3(-1.64f, 1.05f-4.1f, 1),new Vector3(1.54f, 0.95f-4.1f, 1)
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
@@ -972,18 +1169,18 @@ public class LevelData
                 levelData.id = 22;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(0.35f, 2.73f, 1),new Vector3(0.1f, 1.96f, 1),new Vector3(-1.74f, 1.44f, 1),new Vector3(1.03f, 2.06f, 1)
+                    new Vector3(0.41f, 2.66f, 1),new Vector3(0.1f, 1.96f, 1),new Vector3(-1.74f, 1.44f, 1),new Vector3(0.91f, 2.06f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(0.35f, 2.73f-4.1f, 1),new Vector3(0.1f, 1.96f-4.1f, 1),new Vector3(-1.74f, 1.44f-4.1f, 1),new Vector3(1.03f, 2.06f-4.1f, 1)
+                    new Vector3(0.41f, 2.66f-4.1f, 1),new Vector3(0.1f, 1.96f-4.1f, 1),new Vector3(-1.74f, 1.44f-4.1f, 1),new Vector3(0.91f, 2.06f-4.1f, 1)
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
-                    new Vector3(-0.03f, -0.03f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1f),
                     new Vector3(-0.04f, -0.04f, 1),
                     new Vector3(0.05f, 0.05f, 1),
-                    new Vector3(-0.03f, -0.03f, 1)
+                    new Vector3(-0.04f, -0.04f, 1)
                 };
                 levelData.numberOfDiff = 4;
                 break;
@@ -992,19 +1189,19 @@ public class LevelData
                 levelData.id = 24;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-1.5f, 3.85f, 1),new Vector3(-0.24f, 3.36f, 1),new Vector3(0.51f, 1.63f, 1),new Vector3(-1.26f, 2.06f, 1),new Vector3(2.11f, 2.39f, 1)
+                    new Vector3(-1.5f, 3.85f, 1),new Vector3(-0.24f, 3.36f, 1),new Vector3(0.51f, 1.63f, 1),new Vector3(-1.26f, 1.92f, 1),new Vector3(2.11f, 2.47f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-1.5f, 3.85f-4.1f, 1),new Vector3(-0.24f, 3.36f-4.1f, 1),new Vector3(0.51f, 1.63f-4.1f, 1),new Vector3(-1.26f, 2.06f-4.1f, 1),new Vector3(2.11f, 2.39f-4.1f, 1)
+                    new Vector3(-1.5f, 3.85f-4.1f, 1),new Vector3(-0.24f, 3.36f-4.1f, 1),new Vector3(0.51f, 1.63f-4.1f, 1),new Vector3(-1.26f, 1.92f-4.1f, 1),new Vector3(2.11f, 2.47f-4.1f, 1)
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.03f, -0.03f, 1f),
                     new Vector3(-0.04f, -0.04f, 1),
                     new Vector3(0.04f, 0.04f, 1),
-                    new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(0.04f, 0.04f, 1),
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(0.05f, 0.05f, 1),
                 };
                 levelData.numberOfDiff = 5;
                 break;
@@ -1017,13 +1214,13 @@ public class LevelData
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-1.5f, 3.85f-4.1f, 1),new Vector3(-0.24f, 3.36f-4.1f, 1),new Vector3(0.51f, 1.63f-4.1f, 1),new Vector3(-1.26f, 2.06f-4.1f, 1),new Vector3(2.11f, 2.39f-4.1f, 1)
+                    new Vector3(0.31f, 3.04f-4.1f, 1),new Vector3(-0.87f, 3.61f-4.1f, 1),new Vector3(0.42f, 4.06f-4.1f, 1),new Vector3(-1.63f, 1.5f-4.1f, 1),new Vector3(0.12f, 1.73f-4.1f, 1)
                                      };
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.04f, -0.04f, 1f),
                     new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(0.04f, 0.04f, 1),
+                    new Vector3(0.08f, 0.08f, 1),
                     new Vector3(-0.05f, -0.05f, 1),
                     new Vector3(-0.06f, -0.06f, 1)
                 };
@@ -1034,16 +1231,16 @@ public class LevelData
                 levelData.id = 26;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-1.09f, 1.86f, 1),new Vector3(-0.75f, 4.15f, 1),new Vector3(-1.68f, 4.3f, 1),new Vector3(1.75f, 0.83f, 1)
+                    new Vector3(-1.09f, 1.86f, 1),new Vector3(-0.75f, 4.15f, 1),new Vector3(-1.68f, 4.17f, 1),new Vector3(1.75f, 0.83f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-1.09f, 1.86f-4.1f, 1),new Vector3(-0.75f, 4.15f-4.1f, 1),new Vector3(-1.68f, 4.3f-4.1f, 1),new Vector3(1.75f, 0.83f-4.1f, 1)                                     };
+                    new Vector3(-1.09f, 1.86f-4.1f, 1),new Vector3(-0.75f, 4.15f-4.1f, 1),new Vector3(-1.68f, 4.17f-4.1f, 1),new Vector3(1.75f, 0.83f-4.1f, 1)                                     };
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.04f, -0.04f, 1f),
                     new Vector3(-0.06f, -0.06f, 1),
-                    new Vector3(0.05f, 0.05f, 1),
+                    new Vector3(0.07f, 0.07f, 1),
                     new Vector3(-0.05f, -0.05f, 1)
                 };
                 levelData.numberOfDiff = 4;
@@ -1074,20 +1271,427 @@ public class LevelData
                 levelData.id = 28;
                 levelData.diffPos1 = new List<Vector3>
                 {
-                    new Vector3(-0.54f, 4.36f, 1),new Vector3(-1.89f, 1.83f, 1),new Vector3(0.08f, 0.7f, 1),new Vector3(1.6f, 3.39f, 1)
+                    new Vector3(-0.54f, 4.36f, 1),new Vector3(-1.89f, 1.83f, 1),new Vector3(0.08f, 0.89f, 1),new Vector3(1.74f, 3.76f, 1)
                 };
                 levelData.diffPos2 = new List<Vector3>
                 {
-                    new Vector3(-0.54f, 4.36f-4.1f, 1),new Vector3(-1.89f, 1.83f-4.1f, 1),new Vector3(0.08f, 0.7f-4.1f, 1),new Vector3(1.6f, 3.39f-4.1f, 1)
+                    new Vector3(-0.54f, 4.36f-4.1f, 1),new Vector3(-1.89f, 1.83f-4.1f, 1),new Vector3(0.08f, 0.7f-4.1f, 1),new Vector3(1.74f, 3.76f-4.1f, 1)
                 };
                 levelData.diffScale = new List<Vector3>
                 {
                     new Vector3(-0.04f, -0.04f, 1f),
                     new Vector3(-0.05f, -0.05f, 1),
-                    new Vector3(0.05f, 0.05f, 1),
+                    new Vector3(0.06f, 0.06f, 1),
+                    new Vector3(-0.08f, -0.08f, 1)
+                };
+                levelData.numberOfDiff = 4;
+                break;
+            case 51:
+                levelData.id = 51;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-0.78f, 2.35f, 1),new Vector3(0.05f, 3.92f, 1),new Vector3(-0.18f, 0.84f, 1),new Vector3(1.72f, 3.63f, 1),new Vector3(1.88f, 0.99f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-0.78f, 2.35f-4.1f, 1),new Vector3(0.05f, 3.92f-4.1f, 1),new Vector3(-0.18f, 0.84f-4.1f, 1),new Vector3(1.72f, 3.63f-4.1f, 1),new Vector3(1.88f, 0.99f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.09f, -0.09f, 1),
+                    new Vector3(-0.08f, -0.08f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 52:
+                levelData.id = 52;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-1.31f, 4.2f, 1),new Vector3(1.79f, 4.05f, 1),new Vector3(2.02f, 3.06f, 1),new Vector3(-1.36f, 2.52f, 1),new Vector3(-0.3f, 1.75f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.31f, 4.2f-4.1f, 1),new Vector3(1.79f, 4.05f-4.1f, 1),new Vector3(2.02f, 3.06f-4.1f, 1),new Vector3(-1.36f, 2.52f-4.1f, 1),new Vector3(-0.3f, 1.75f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(-0.1f, -0.1f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 53:
+                levelData.id = 53;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(1.31f, 3.6f, 1),new Vector3(-1.78f, 3.69f, 1),new Vector3(-1.31f, 1.18f, 1),new Vector3(0.44f, 1.64f, 1),new Vector3(1.1f, 2.35f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(1.31f, 3.6f-4.1f, 1),new Vector3(-1.78f, 3.69f-4.1f, 1),new Vector3(-1.31f, 1.18f-4.1f, 1),new Vector3(0.44f, 1.64f-4.1f, 1),new Vector3(1.1f, 2.35f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.05f, -0.05f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 54:
+                levelData.id = 54;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(1.76f, 3.51f, 1),new Vector3(-0.31f, 3.45f, 1),new Vector3(-1.45f, 2.03f, 1),new Vector3(0.11f, 1.7f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(1.76f, 3.51f-4.1f, 1),new Vector3(-0.31f, 3.45f-4.1f, 1),new Vector3(-1.45f, 2.03f-4.1f, 1),new Vector3(0.11f, 1.7f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.08f, -0.08f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1)
+                };
+                levelData.numberOfDiff = 4;
+                break;
+            case 55:
+                levelData.id = 55;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(1.88f, 3.92f, 1),new Vector3(0.35f, 4.24f, 1),new Vector3(-1.7f, 3.72f, 1),new Vector3(0.08f, 0.88f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(1.88f, 3.92f-4.1f, 1),new Vector3(0.35f, 4.24f-4.1f, 1),new Vector3(-1.7f, 3.72f-4.1f, 1),new Vector3(0.08f, 0.88f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.07f, -0.07f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
+                };
+                levelData.numberOfDiff = 4;
+                break;
+            case 56:
+                levelData.id = 56;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(1.27f, 3.17f, 1),new Vector3(-1.85f, 4.04f, 1),new Vector3(-0.23f, 1.79f, 1),new Vector3(0.88f, 1.41f, 1),new Vector3(-1.62f, 0.9f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(1.27f, 3.17f-4.1f, 1),new Vector3(-1.85f, 4.04f-4.1f, 1),new Vector3(-0.23f, 1.79f-4.1f, 1),new Vector3(0.88f, 1.41f-4.1f, 1),new Vector3(-1.62f, 0.9f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.08f, -0.08f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.07f, -0.07f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 57:
+                levelData.id = 57;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(1.81f, 3.3f, 1),new Vector3(-2.09f, 3.37f, 1),new Vector3(-0.01f, 1.43f, 1),new Vector3(-1.89f, 0.7f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(1.81f, 3.3f-4.1f, 1),new Vector3(-2.09f, 3.37f-4.1f, 1),new Vector3(-0.01f, 1.43f-4.1f, 1),new Vector3(-1.89f, 0.7f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.08f, -0.08f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
+                };
+                levelData.numberOfDiff = 4;
+                break;
+            case 58:
+                levelData.id = 58;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(1.27f, 4.21f, 1),new Vector3(-1.77f, 3.08f, 1),new Vector3(2.17f, 2.8f, 1),new Vector3(-1.49f, 1.52f, 1),new Vector3(0.43f, 2.69f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(1.27f, 4.21f-4.1f, 1),new Vector3(-1.77f, 3.08f-4.1f, 1),new Vector3(2.17f, 2.8f-4.1f, 1),new Vector3(-1.49f, 1.52f-4.1f, 1),new Vector3(0.43f, 2.69f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.04f, -0.04f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+                case 59:
+                levelData.id = 59;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-1.08f, 4.24f, 1),new Vector3(0.72f, 3.46f, 1),new Vector3(-1.05f, 1.81f, 1),new Vector3(0.2f, 0.75f, 1),new Vector3(1.81f, 0.84f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.08f, 4.24f-4.1f, 1),new Vector3(0.72f, 3.46f-4.1f, 1),new Vector3(-1.05f, 1.81f-4.1f, 1),new Vector3(0.2f, 0.75f-4.1f, 1),new Vector3(1.81f, 0.84f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.05f, -0.05f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+                case 60:
+                levelData.id = 60;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-0.16f, 3.83f, 1),new Vector3(-1.89f, 2.84f, 1),new Vector3(-1.55f, 1.97f, 1),new Vector3(0.58f, 2.09f, 1),new Vector3(1.29f, 2.5f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-0.16f, 3.83f-4.1f, 1),new Vector3(-1.89f, 2.84f-4.1f, 1),new Vector3(-1.55f, 1.97f-4.1f, 1),new Vector3(0.58f, 2.09f-4.1f, 1),new Vector3(1.29f, 2.5f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.05f, -0.05f, 1f),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.04f, -0.04f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 71:
+                //hard
+                levelData.id = 71;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-1.92f, 3.13f, 1),new Vector3(-0.12f, 2.77f, 1),new Vector3(1.11f, 3.47f, 1),new Vector3(0.78f, 2.36f, 1), new Vector3(-1.94f, 1.51f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.92f, 3.13f-4.1f, 1),new Vector3(-0.12f, 2.77f-4.1f, 1),new Vector3(1.11f, 3.47f-4.1f, 1),new Vector3(0.78f, 2.36f-4.1f, 1), new Vector3(-1.94f, 1.51f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.04f, -0.04f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.06f, -0.06f, 1)
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 72:
+                //hard
+                levelData.id = 72;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(0.52f, 4.04f, 1),new Vector3(-0.15f, 1.47f, 1),new Vector3(1.19f, 2.26f, 1),new Vector3(-1.45f, 2.37f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(0.52f, 4.04f-4.1f, 1),new Vector3(-0.15f, 1.47f-4.1f, 1),new Vector3(1.19f, 2.26f-4.1f, 1),new Vector3(-1.45f, 2.37f-4.1f, 1)
+                                                  };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
                     new Vector3(-0.07f, -0.07f, 1)
                 };
                 levelData.numberOfDiff = 4;
+                break;
+            case 73:
+                //hard
+                levelData.id = 73;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(0.02f, 3.35f, 1),new Vector3(1.46f, 3.86f, 1),new Vector3(-1.32f, 1.17f, 1),new Vector3(-1.96f, 2.54f, 1),new Vector3(1.25f, 1.68f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(0.02f, 3.35f-4.1f, 1),new Vector3(1.46f, 3.86f-4.1f, 1),new Vector3(-1.32f, 1.17f-4.1f, 1),new Vector3(-1.96f, 2.54f-4.1f, 1),new Vector3(1.25f, 1.68f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+
+                };
+                levelData.numberOfDiff = 5;
+                break;
+             case 74:
+                //hard
+                levelData.id = 74;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(0.26f, 3.77f, 1),new Vector3(-1.56f, 3.7f, 1),new Vector3(-0.23f, 2.64f, 1),new Vector3(-1.82f, 2.54f, 1),new Vector3(1.27f, 1.48f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(0.02f, 3.35f-4.1f, 1),new Vector3(1.46f, 3.86f-4.1f, 1),new Vector3(-1.32f, 1.17f-4.1f, 1),new Vector3(-1.96f, 2.54f-4.1f, 1),new Vector3(1.25f, 1.68f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(0.1f, -0.06f, 1),
+
+                };
+                levelData.numberOfDiff = 5;
+                break;
+             case 75:
+                //hard
+                levelData.id = 75;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-1.12f, 2.78f, 1),new Vector3(1.76f, 4.13f, 1),new Vector3(0.26f, 1.49f, 1)
+                     };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.12f, 2.78f-4.1f, 1),new Vector3(1.76f, 4.13f-4.1f, 1),new Vector3(0.26f, 1.49f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.07f, -0.07f, 1f),
+                    new Vector3(-0.09f, -0.09f, 1),
+                    new Vector3(-0.05f, -0.05f, 1)
+                };
+                levelData.numberOfDiff = 3;
+                break;
+             case 76:
+                //hard
+                levelData.id = 76;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-1.47f, 4.03f, 1),new Vector3(0.99f, 2.84f, 1),new Vector3(0.47f, 1.34f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(-1.47f, 4.03f-4.1f, 1),new Vector3(0.99f, 2.84f-4.1f, 1),new Vector3(0.47f, 1.34f-4.1f, 1)                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1)
+
+                };
+                levelData.numberOfDiff = 3;
+                break;
+            case 77:
+                //hard
+                levelData.id = 77;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(0.43f, 3.67f, 1),new Vector3(1.24f, 2.35f, 1),new Vector3(-0.46f, 1.74f, 1),new Vector3(-1.97f, 2.46f, 1),new Vector3(-1.52f, 1.18f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(0.43f, 3.67f-4.1f, 1),new Vector3(1.24f, 2.35f-4.1f, 1),new Vector3(-0.46f, 1.74f-4.1f, 1),new Vector3(-1.97f, 2.46f-4.1f, 1),new Vector3(-1.52f, 1.18f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.07f, -0.07f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(0.07f, 0.07f, 1),
+
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 78:
+                //hard
+                levelData.id = 78;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(0.78f, 3.42f, 1),new Vector3(-0.82f, 3.74f, 1),new Vector3(-1.22f, 1.14f, 1),new Vector3(1.81f, 1.01f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(0.78f, 3.42f-4.1f, 1),new Vector3(-0.82f, 3.74f-4.1f, 1),new Vector3(-1.22f, 1.14f-4.1f, 1),new Vector3(1.81f, 1.01f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.07f, -0.07f, 1)
+
+                };
+                levelData.numberOfDiff = 4;
+                break;
+            case 79:
+                //hard
+                levelData.id = 79;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(-1.96f, 4.34f, 1),new Vector3(1.22f, 3.29f, 1),new Vector3(-0.64f, 1.3f, 1),new Vector3(-1.9f, 2.48f, 1),new Vector3(2.01f, 1.93f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(0.02f, 3.35f-4.1f, 1),new Vector3(1.46f, 3.86f-4.1f, 1),new Vector3(-1.32f, 1.17f-4.1f, 1),new Vector3(-1.96f, 2.54f-4.1f, 1),new Vector3(1.25f, 1.68f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(0.07f, -0.07f, 1),
+
+                };
+                levelData.numberOfDiff = 5;
+                break;
+            case 80:
+                //hard
+                levelData.id = 80;
+                levelData.diffPos1 = new List<Vector3>
+                {
+                    new Vector3(1.51f, 3.26f, 1),new Vector3(-1.32f, 3.7f, 1),new Vector3(-1.07f, 2.03f, 1),new Vector3(-0.52f, 1.22f, 1),new Vector3(1.52f, 1.88f, 1)
+                };
+                levelData.diffPos2 = new List<Vector3>
+                {
+                    new Vector3(1.51f, 3.26f-4.1f, 1),new Vector3(-1.32f, 3.7f-4.1f, 1),new Vector3(-1.07f, 2.03f-4.1f, 1),new Vector3(-0.52f, 1.22f-4.1f, 1),new Vector3(1.52f, 1.88f-4.1f, 1)
+                };
+                levelData.diffScale = new List<Vector3>
+                {
+                    new Vector3(-0.06f, -0.06f, 1f),
+                    new Vector3(-0.06f, -0.06f, 1),
+                    new Vector3(-0.07f, -0.07f, 1),
+                    new Vector3(-0.05f, -0.05f, 1),
+                    new Vector3(0.05f, 0.05f, 1),
+
+                };
+                levelData.numberOfDiff = 5;
                 break;
             default:
                 Debug.LogWarning($"Unrecognized level: {level}");

@@ -11,6 +11,7 @@ public class DifferenceSpot : MonoBehaviour
 
     void OnMouseDown()
     {
+
         Debug.Log("Clicked");   
         if (found) return;
         SoundController.Instance.PlayDiffClickSound();
