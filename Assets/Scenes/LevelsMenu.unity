@@ -253,6 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ab0f872b583f8440b60a37fab5b818d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  noInternetScreen: {fileID: 0}
 --- !u!4 &135956778
 Transform:
   m_ObjectHideFlags: 0
@@ -1517,8 +1518,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2010896159}
   m_HandleRect: {fileID: 2010896158}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.15585563
+  m_Value: 1.0000001
+  m_Size: 0.19821805
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2496,6 +2497,7 @@ MonoBehaviour:
   imageSuffix: A_M
   totalLevels: 80
   scrollDuration: 0.4
+  loadingScreen: {fileID: 744040420}
 --- !u!114 &1652312656
 MonoBehaviour:
   m_ObjectHideFlags: 0

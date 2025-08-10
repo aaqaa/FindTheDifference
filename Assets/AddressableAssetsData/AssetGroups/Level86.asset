@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Level86
+  m_EditorClassIdentifier: 
+  m_GroupName: Level86
+  m_GUID: 49c223bbafe4d46419a61f34e90d4ef4
+  m_SerializeEntries:
+  - m_GUID: 76805a72dadb39144aad98c56bc33e66
+    m_Address: Image86B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79b965e8468bc4b40b182c9ad147637c
+    m_Address: Image86A_M
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87313e2a4fc590349800c8c85b0d1e4b
+    m_Address: Image86A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3008603286f37c14989d246327a98541, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1e6c18ea533e6fc4cae9de3000502876, type: 2}
+    - {fileID: 11400000, guid: e20cdefed2574d44f92175202dc6119e, type: 2}

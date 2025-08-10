@@ -61,12 +61,12 @@ public class LevelController : MonoBehaviour
             isWin = true;
             disableImageClick = true;
             if (GameProgress.LoadLevel() < currentLevel)
-            { 
+            {   
                 GameProgress.SaveLevel(currentLevel + 1);    
             }
             SoundController.Instance.PlayLevelCompletedSound();
             LevelTimer.Instance.StopTimer();
-            StartCoroutine(showWinCanvas());
+            StartCoroutine(showWinCanvas());    
             LevelTimer.Instance.StopTimer();
         }
     }

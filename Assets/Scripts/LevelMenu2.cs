@@ -3,7 +3,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
-
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using System.Threading.Tasks;
 public class LevelMenu2 : MonoBehaviour
 {
     [Header("UI References")]
@@ -20,18 +22,48 @@ public class LevelMenu2 : MonoBehaviour
     private int completedLevels = 1;
     private Sprite lockSprite;
     private bool isDestroying = false;
+    public GameObject loadingScreen;
 
-    void Start()
+
+    private async Task LoadTotalLevelsAsync()
+    {
+        try
+        {
+            AsyncOperationHandle<TextAsset> handle = Addressables.LoadAssetAsync<TextAsset>("TotalLevels");
+            await handle.Task;
+
+            if (handle.Status == AsyncOperationStatus.Succeeded)
+            {
+                totalLevels = int.Parse(handle.Result.text);
+                Debug.Log("Total Levels Loaded: " + totalLevels);
+            }
+            else
+            {
+                Debug.LogWarning("Failed to load TotalLevels. Using default value.");
+                totalLevels = 101; // fallback
+            }
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError("Exception while loading TotalLevels: " + e.Message);
+            totalLevels = 101; // fallback
+        }
+    }
+
+
+    async Task Start()
     {
         Debug.Log("LevelMenu2 Start() called");
-
+      
+        if(loadingScreen!=null)  loadingScreen.SetActive(true);
         if (LevelController.Instance != null && !isDestroying)
             LevelController.Instance.destroyScene();
 
         lockSprite = Resources.Load<Sprite>("UIImages/LevelLocked");
         completedLevels = GameProgress.LoadLevel();
-
-        CreateLevelButtons();
+        await LoadTotalLevelsAsync();
+       if(loadingScreen!=null)   loadingScreen.SetActive(false);
+            CreateLevelButtons();
     }
 
     void CreateLevelButtons()
